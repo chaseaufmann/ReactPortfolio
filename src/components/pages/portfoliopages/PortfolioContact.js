@@ -89,6 +89,12 @@ import { Link } from 'react-router-dom';
       <div>
         <span className="text-secondary">Email: </span> caufmanndev@gmail.com      
       </div>
+      <div>
+         
+      <a href="https://github.com/chaseaufmann" target="_blank" rel="noopener noreferrer">
+        <span className="text-secondary">Guthub Link: </span> Behold my code vault!
+      </a>
+      </div>
       
         <div>
          

@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import '../../../css/github-finder/style.css'
+
 
 
  const PortfolioWork = () => {
@@ -87,9 +87,9 @@ import '../../../css/github-finder/style.css'
         <h2 className="sm-heading">Check out some of my projects...</h2>
         <div className="projects">
           <div className="item">
-            <Link to={'/GithubFinder/Home'}>
+            <a href="https://chaseaufmann.github.io/Github-Finder/" target="_blank" rel="noopener noreferrer">
               <img src={require('../../../img/portfolio/GithubFinder.jpg')} alt="Project" />
-            </Link>
+            </a>
             <div className="btn-light">
               <i className="fas fa-eye"></i> Github-Finder
             </div>

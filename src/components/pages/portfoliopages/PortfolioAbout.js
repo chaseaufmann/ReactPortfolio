@@ -104,7 +104,7 @@ import { Link } from 'react-router-dom';
       <div className="job job-2">
         <h3>Currently Learning</h3>
         <h6>React-Front End Developer</h6>
-        <p>Using the React Web Framework along with Javascript; I built this entire app plus all included projects. Please see to projects for code smashing skills!</p>
+        <p>Using the React Web Framework along with Javascript; I built this entire app. Please see to projects for code smashing skills!</p>
       </div>
 
       
