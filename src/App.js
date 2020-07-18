@@ -5,15 +5,12 @@ import PortfolioAbout from './components/pages/portfoliopages/PortfolioAbout';
 import PortfolioWork from './components/pages/portfoliopages/PortfolioWork';
 import PortfolioContact from './components/pages/portfoliopages/PortfolioContact';
 
-import GithubState from './context/github-finder/github/GithubState';
-import AlertState from './context/github-finder/alert/AlertState';
+
 
 
 const App=()=> {
   return (
 
-    <GithubState>
-    <AlertState>
    <Router>
       <Switch>
       
@@ -28,8 +25,7 @@ const App=()=> {
       
       </Switch>
     </Router>
-   </AlertState>
-   </GithubState>
+  
   );
 };
 
