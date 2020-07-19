@@ -87,7 +87,7 @@ import { Link } from 'react-router-dom';
         <h2 className="sm-heading">Check out some of my projects...</h2>
         <div className="projects">
           <div className="item">
-            <a href="https://chaseaufmann.github.io/Github-Finder/" target="_blank" rel="noopener noreferrer">
+            <a href="https://chaseaufmann.github.io/github-finder/" target="_blank" rel="noopener noreferrer">
               <img src={require('../../../img/portfolio/GithubFinder.jpg')} alt="Project" />
             </a>
             <div className="btn-light">
